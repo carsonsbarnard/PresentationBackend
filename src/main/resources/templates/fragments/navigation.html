@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" type="text/css"  th:href="@{/css/style.css}">
+
+</head>
+<body>
+  <nav id="header">
+
+    <div align="center">
+      <div align="=center">
+
+        <img th:src="@{/images/utility/bookStoreBanner.png}" alt="">
+
+      </div>
+      <div>
+        Welcome, Admin |<a href="logout">Logout</a>
+      </div>
+
+      <div>
+        <a href="/admin/">Home</a> |
+        <a href="/admin/all">Users</a> |
+        <a href="/admin/category/all">Categories</a> |
+        <a href="/admin/book/all">Books</a> |
+        <a href="/admin/customer/all">Customers</a> |
+        <a href="/admin/review/all">Reviews</a> |
+        <a href="/admin/order/all">Orders</a>
+      </div>
+    </div>
+
+
+    <div align="center">
+      <div class="row">&nbsp;</div>
+      <div class="row">
+        <div class="col text-center">
+          <h3>Administrative Dashboard</h3>
+        </div>
+      </div>
+    </div>
+
+  </nav>
+
+<nav id="footer">
+  <div align="center">
+    <h4>Bookstore Administration</h4>
+    <h4><i>(C) BookStoreOnline. All rights reserved</i></h4>
+  </div>
+
+</nav>
+
+</body>
+</html>
